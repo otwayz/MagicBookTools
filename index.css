@@ -1,0 +1,46 @@
+html,
+body {
+    margin: 5px;
+    padding: 0;
+}
+
+img {
+    height: 600px;
+}
+
+input {
+    width: 200px;
+    height: 32px;
+    margin: 5px;
+}
+
+button {
+    width: 200px;
+    height: auto;
+    background: #28bea0;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 500px;
+}
+
+.container {
+    display: flex;
+    border-bottom: 3px dashed #28bea0;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.container>div {
+    margin-left: 20px;
+}
+
+.block-container {
+    display: flex;
+    align-items: center;
+}
+
+.block {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #333333;
+}
