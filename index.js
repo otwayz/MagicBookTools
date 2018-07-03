@@ -315,8 +315,8 @@ var app = new Vue({
                     {
                         id: 14,
                         type: 'color',
-                        tag: 'definition_text_color',
-                        text: 'highlight_text_color',
+                        tag: 'highlight_text_color',
+                        text: 'ffFFE182',
                         tip: '查词框高亮字体颜色'
                     },
                 ]
