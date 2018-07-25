@@ -545,21 +545,21 @@ var app = new Vue({
                     id: 2,
                     type: 'color',
                     tag: 'bg_color',
-                    text: 'fcf0ca',
+                    text: 'fffcf0ca',
                     tip: '背景色'
                 },
                 {
                     id: 3,
                     type: 'color',
                     tag: 'border_color',
-                    text: 'e5c982',
+                    text: 'ffe5c982',
                     tip: '边框线颜色'
                 },
                 {
                     id: 4,
                     type: 'color',
                     tag: 'thumb_color',
-                    text: 'edd599',
+                    text: 'ffedd599',
                     tip: '滚动条颜色'
                 },
                 {
@@ -573,21 +573,21 @@ var app = new Vue({
                     id: 6,
                     type: 'color',
                     tag: 'content_text_color',
-                    text: '333333',
+                    text: 'ff333333',
                     tip: '弹窗中文本颜色'
                 },
                 {
                     id: 7,
                     type: 'color',
                     tag: 'selected_rect_color',
-                    text: 'ffdb86',
+                    text: 'ffffdb86',
                     tip: '长按选中背景色'
                 },
                 {
                     id: 8,
                     type: 'color',
                     tag: 'selected_text_color',
-                    text: '333333',
+                    text: 'ff333333',
                     tip: '长按选中文本色'
                 },
             ],
