@@ -15,20 +15,20 @@
                 <div class="container">
                     <img src="images/body.jpeg" />
                     <div>
-                        <input-item v-for="item in themeValue['body']" :key="item.id" :id="item.id" :tip="item.tip" :type="item.type" :tag="item.tag"
-                            v-model="item.text" :text="item.text"></input-item>
-                        <input-item v-for="item in themeValue['panel']" :key="item.id" :id="item.id" :tip="item.tip" :type="item.type" :tag="item.tag"
-                            v-model="item.text" :text="item.text"></input-item>
+                        <input-item v-for="item in themeValue['body']" :key="item.id" :id="item.id" :tip="item.tip"
+                            :type="item.type" :tag="item.tag" v-model="item.text" :text="item.text"></input-item>
+                        <input-item v-for="item in themeValue['panel']" :key="item.id" :id="item.id" :tip="item.tip"
+                            :type="item.type" :tag="item.tag" v-model="item.text" :text="item.text"></input-item>
                     </div>
                 </div>
 
                 <div class="container">
                     <img src="images/catalog.jpeg" />
                     <div>
-                        <input-item v-for="item in themeValue['toolbar']" :key="item.id" :id="item.id" :tip="item.tip" :type="item.type" :tag="item.tag"
-                            v-model="item.text" :text="item.text"></input-item>
-                        <input-item v-for="item in themeValue['catalog']" :key="item.id" :id="item.id" :tip="item.tip" :type="item.type" :tag="item.tag"
-                            v-model="item.text" :text="item.text"></input-item>
+                        <input-item v-for="item in themeValue['toolbar']" :key="item.id" :id="item.id" :tip="item.tip"
+                            :type="item.type" :tag="item.tag" v-model="item.text" :text="item.text"></input-item>
+                        <input-item v-for="item in themeValue['catalog']" :key="item.id" :id="item.id" :tip="item.tip"
+                            :type="item.type" :tag="item.tag" v-model="item.text" :text="item.text"></input-item>
                     </div>
                 </div>
                 <!-- </div> -->
@@ -37,16 +37,16 @@
                 <div class="container" v-if="themeKey === 'general_definition_page'">
                     <img src="images/general.jpeg" />
                     <div>
-                        <input-item v-for="item in themeValue" :key="item.id" :id="item.id" :tip="item.tip" :type="item.type" :tag="item.tag" v-model="item.text"
-                            :text="item.text"></input-item>
+                        <input-item v-for="item in themeValue" :key="item.id" :id="item.id" :tip="item.tip" :type="item.type"
+                            :tag="item.tag" v-model="item.text" :text="item.text"></input-item>
                     </div>
                 </div>
 
                 <div class="container" v-if="themeKey == 'featured_definition_page'">
                     <img src="images/featured.jpeg" />
                     <div>
-                        <input-item v-for="item in themeValue" :key="item.id" :id="item.id" :tip="item.tip" :type="item.type" :tag="item.tag" v-model="item.text"
-                            :text="item.text"></input-item>
+                        <input-item v-for="item in themeValue" :key="item.id" :id="item.id" :tip="item.tip" :type="item.type"
+                            :tag="item.tag" v-model="item.text" :text="item.text"></input-item>
                     </div>
                 </div>
 
@@ -59,8 +59,8 @@
                             <input type="text" v-model="item.text">
                             <div class="block" :style="`background-color: #${item.text}`" v-if="item.type === 'color'"></div>
                         </div> -->
-                        <input-item v-for="item in themeValue" :key="item.id" :id="item.id" :tip="item.tip" :type="item.type" :tag="item.tag" v-model="item.text"
-                            :text="item.text"></input-item>
+                        <input-item v-for="item in themeValue" :key="item.id" :id="item.id" :tip="item.tip" :type="item.type"
+                            :tag="item.tag" v-model="item.text" :text="item.text"></input-item>
                     </div>
                 </div>
             </div>

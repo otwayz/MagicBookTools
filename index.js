@@ -319,6 +319,20 @@ var app = new Vue({
                         text: 'ffFFE182',
                         tip: '查词框高亮字体颜色'
                     },
+                    {
+                        id: 15,
+                        type: 'color',
+                        tag: 'drag_icon_color',
+                        text: 'ffFFE182',
+                        tip: '抽屉图标颜色'
+                    },
+                    {
+                        id: 16,
+                        type: 'color',
+                        tag: 'drag_divider_color',
+                        text: 'ffFFE182',
+                        tip: '抽屉分割线颜色'
+                    },
                 ]
             },
             general_definition_page: [{
@@ -418,6 +432,20 @@ var app = new Vue({
                     tag: 'highlight_color',
                     text: 'fffff4a4',
                     tip: '普通词典所有高亮颜色'
+                },
+                {
+                    id: 15,
+                    type: 'color',
+                    tag: 'drag_icon_color',
+                    text: 'ffFFE182',
+                    tip: '抽屉图标颜色'
+                },
+                {
+                    id: 16,
+                    type: 'color',
+                    tag: 'drag_divider_color',
+                    text: 'ffFFE182',
+                    tip: '抽屉分割线颜色'
                 },
             ],
             featured_definition_page: [{
