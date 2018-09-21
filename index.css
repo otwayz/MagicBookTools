@@ -8,7 +8,7 @@ img {
     height: 600px;
 }
 
-input {
+.block-container input {
     width: 200px;
     height: 32px;
     margin: 5px;
@@ -20,7 +20,6 @@ button {
     background: #28bea0;
     margin-top: 30px;
     margin-bottom: 50px;
-    margin-left: 500px;
 }
 
 .container {
@@ -43,4 +42,14 @@ button {
     width: 30px;
     height: 30px;
     border: 1px solid #333333;
+}
+
+.input-file {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-file input {
+    border: 1px solid #28bea0;
+    padding: 10px;
 }

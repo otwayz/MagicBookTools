@@ -9,6 +9,10 @@
 
 <body>
     <div id="app">
+        <div class="input-file">
+            <input type="file" id="files" style="font-size: 18px" @change="importFile" />
+        </div>
+
         <div v-for="(themeValue, themeKey) in theme">
             <div v-if="themeKey === 'read_page'">
                 <!-- <div v-for="(readPageValue,readPageKey) in themeValue"> -->
@@ -52,7 +56,6 @@
 
                 <div class="container" v-if="themeKey === 'featured_bilingual_window'">
                     <img src="images/trans.jpeg" />
-                    <img src="images/trans2.jpeg" />
                     <div>
                         <!-- <div class="block-container" v-for="item in themeValue">
                             {{ item.id }}. {{ item.tip}} &nbsp;
@@ -65,10 +68,11 @@
                 </div>
             </div>
         </div>
-
-        <button @click="json2xml">
-            <h2 style="color: azure">完成设置</h2>
-        </button>
+        <div class="input-file">
+            <button @click="json2xml">
+                <h2 style="color: azure">完成设置</h2>
+            </button>
+        </div>
     </div>
 
     <script src="index.js"></script>
