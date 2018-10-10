@@ -280,7 +280,7 @@ var app = new Vue({
                         id: 7,
                         type: 'image',
                         tag: 'bg_image',
-                        text: 'xxx.png',
+                        text: 'reader_catalog_bg_image.png',
                         tip: '目录背景图'
                     },
                     {
@@ -344,7 +344,7 @@ var app = new Vue({
                         id: 1,
                         type: 'image',
                         tag: 'bg_image',
-                        text: 'xxx.png',
+                        text: 'reader_body_bg_image.png',
                         tip: '阅读背景图'
                     },
                     {
@@ -394,14 +394,14 @@ var app = new Vue({
                         id: 8,
                         type: 'image',
                         tag: 'bg_image',
-                        text: 'xxx.png',
+                        text: 'reader_panel_bg_image.png',
                         tip: '查词框背景图'
                     },
                     {
                         id: 9,
                         type: 'image',
                         tag: 'panel_icon_image',
-                        text: 'xxx.png',
+                        text: 'reader_panel_panel_icon_image.png',
                         tip: '查词框右上图标'
                     },
                     {
@@ -415,7 +415,7 @@ var app = new Vue({
                         id: 11,
                         type: 'image',
                         tag: 'dict_icon_image',
-                        text: 'xxx.png',
+                        text: 'reader_panel_dict_icon_image.png',
                         tip: '查词框词典释义图标'
                     },
                     {
@@ -459,7 +459,7 @@ var app = new Vue({
                     id: 2,
                     type: 'image',
                     tag: 'card_bg_image',
-                    text: 'xxx.png',
+                    text: 'dict_standard_card_bg_image.png',
                     tip: '普通词典card背景图'
                 },
                 {
@@ -614,7 +614,7 @@ var app = new Vue({
                     id: 8,
                     type: 'image',
                     tag: 'definition_bg_image',
-                    text: 'xxx.png',
+                    text: 'dict_magic_definition_bg_image.png',
                     tip: '特色词典单词释义图片'
                 },
                 {
@@ -628,7 +628,7 @@ var app = new Vue({
                     id: 10,
                     type: 'image',
                     tag: 'dividing_image_image',
-                    text: 'xxx.png',
+                    text: 'dict_magic_dividing_image.png',
                     tip: '特色词典默认分割图'
                 },
                 {
